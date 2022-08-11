@@ -1,3 +1,26 @@
 body {
   background: papayawhip;
 }
+
+.container{
+  border:3px solid blueviolet;
+  height:150px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.container > *{
+  border:3px solid hotpink;
+}
+
+
+.a{
+  width:425px;
+  height:120px;
+  flex-grow:1;
+}
+
+.b,.c,.d,.e,.f{
+  
+}
